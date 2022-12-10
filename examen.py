@@ -277,8 +277,8 @@ def visualizarResultado(img,lineas,longitudes):
     ax.plot(lineas[3]["x"], lineas[3]["y"],linewidth=2, color='y')
 
     #Mostrar las longitudes de las lineas
-    ax.annotate(str(round(longitudes[1],1)), (pm1[0], pm1[1]))
-    ax.annotate(str(round(longitudes[3],1)), (pm2[0], pm2[1]))
+    ax.annotate(str(round(longitudes[1],0)), (pm1[0], pm1[1]))
+    ax.annotate(str(round(longitudes[3],0)), (pm2[0], pm2[1]))
     plt.show()
 
             
